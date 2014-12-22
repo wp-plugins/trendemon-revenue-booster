@@ -1,7 +1,7 @@
 === TrenDemon Revenue Booster ===
 Contributors: AvishaiSharon
 Donate link: http://trendemon.com
-Tags: related posts, related articles, related content, call to actions, conversions, CTA, ROI, analytics, insigths, conversion, optimization, revenue, monetization, readership, cross promotion, content marketing, sponsored posts
+Tags: related posts, related articles, related content, call to actions, conversions, CTA, ROI, analytics, insigths, conversion, optimization, revenue, monetization, monetize, readership, cross promotion, monetize, content recommendations, content marketing, sponsored posts, marketing tools, admin
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 4.2.4
