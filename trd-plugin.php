@@ -37,7 +37,7 @@ function add_trd203_caps() {
 
 
 
-/* adding trendemon script to every page of the website */
+/* adding TrenDemon script to every page of the website */
 function add_trd203_script() {
 	if (get_option("trd203_logged")){
 ?>
@@ -56,7 +56,7 @@ function add_trd203_script() {
 	}
 }
 
-//connect to trendemon account
+//connect to TrenDemon account
 function trd203_login_check($user, $password, $url="", $type="login"){	
 	if($type=="reg"){ // registration
 	
@@ -92,9 +92,9 @@ function trd203_login_check($user, $password, $url="", $type="login"){
 	activate_trd();	
 	update_option("trd203_mail", $user);
 	update_option("trd203_url", $url);	
+	update_option("trd203_logged", true);
 	update_option("trd203_aid", $api_response_array["advertiser_id"]);
 	update_option("trd203_uid", $api_response_array["user_id"]);
-	update_option("trd203_logged", true);
 	update_option("trd203_token", $api_response_array["token"]);
 		
 	return true;
