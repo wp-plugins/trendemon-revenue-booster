@@ -495,6 +495,6 @@ function trd203_update_callback() {
 
 /* website */
 if (!is_admin()) {
-  add_action('wp_footer', 'add_trd203_script');
+  add_action('wp_footer', 'add_trd203_script', 999);
   add_action('the_content', 'add_trd203_show_div',0);
 }
