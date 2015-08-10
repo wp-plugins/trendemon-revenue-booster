@@ -13,24 +13,9 @@ Increase revenue, pageviews & conversions from your content automatically using 
 == Description ==
 
 * TrenDemon helps you automatically boost revenue, pageviews and conversions from site. Once you set your goal, TrenDemon identifies which posts on your site have the highest impact. Then using personalized content recommendations and call to actions, TrenDemon drives more traffic to those posts and pages automatically. 
-[youtube http://www.youtube.com/watch?v=nTjOlocOyBg]
 
 * **Marketers** - Increase the ROI of your content marketing automatically, get actionable insights and increase engagement. We help our users increase conversions from their existing content & traffic by 150% to 400% on average.
 * **Publishers** - Increase monetization, pageviews and engagement for FREE. Even better, eligible publishers can also monetize on TrenDemon's Media Exchange Network.
-
-= Explainer Videos =
-
-* Intro to TrenDemon (what is it, how it works, how it looks)
-[youtube https://www.youtube.com/watch?v=p6OdEexnkfE]
-
-
-* Setup & Dashboard Overview
-[youtube https://www.youtube.com/watch?v=G6FIfnWw3oE]
-
-
-* Managing Content, Goals and Call to Actions
-[youtube https://www.youtube.com/watch?v=9RCsV27I-D0]
-
 
 = Success Stories =
 *   [Publisher - Investing.com](http://trendemon.com/cs/investing)
