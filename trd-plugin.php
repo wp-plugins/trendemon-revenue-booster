@@ -41,17 +41,25 @@ function add_trd203_caps() {
 function add_trd203_script() {
 	if (get_option("trd203_logged")){
 ?>
-<script type="text/javascript" id="trd-flame-load">(function(d, s, id) {
-    var js, trdjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id))
-        return;
-    js = d.createElement(s);
-    js.id = id;
-    js.async=true;
-    js.src = "http://prod.trendemon.com/apis/loadflame/mainflamejs?aid=<?php echo get_option("trd203_aid"); ?>&uid=<?php echo get_option("trd203_uid"); ?>&baseurl=http%3A%2F%2Fprod.trendemon.com%2F&appid=208770359181748";
-    trdjs.parentNode.insertBefore(js, trdjs);
-}(document, 'script', 'trdflame'));
+<!-- TrenDemon Code -->
+<script type="text/javascript" id="trd-flame-load">
+     var JsDomain = "https://prod.trendemon.com/apis/loadflame/mainflamejs";
+     var param = "aid=<?php echo get_option("trd203_aid"); ?>&uid=<?php echo get_option("trd203_uid"); ?>&baseurl=https%3A%2F%2Fprod.trendemon.com%2F&appid=208770359181748";
+     (function (w, d) {
+      function go() {
+       setTimeout(function () {            
+        var bi = document.createElement('script'); bi.type = 'text/javascript'; bi.async = true;
+        bi.src = JsDomain + '?' +param;
+        bi.id  = 'trdflame';
+        var s  = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(bi, s);
+       }, 500);
+      }
+      if (w.addEventListener) { w.addEventListener("load", go, false); }
+      else if (w.attachEvent) { w.attachEvent("onload", go); }
+     }(window, document));
 </script>
+<!-- End of TrenDemon Code -->
+
 <?php
 	}
 }
@@ -341,7 +349,9 @@ function deactivate_trd(){
 function trd203_activation_redirect(){
 	if (get_option('trd203_do_activation_redirect', false)) {
         delete_option('trd203_do_activation_redirect');
-        wp_redirect("admin.php?page=trd203_dashboard");
+        if(!is_network_admin()){
+			wp_redirect("admin.php?page=trd203_dashboard");
+		}
     }
 }
 
