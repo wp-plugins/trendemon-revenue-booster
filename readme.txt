@@ -19,9 +19,9 @@ Increase revenue, pageviews & conversions from your content automatically using 
 
 = Success Stories =
 *   [Publisher - Investing.com](http://trendemon.com/cs/investing)
-*   [Marketer - Playtech](http:/trendemon.com/cs/playtech)
-*   [Marketer - eToro](http:/trendemon.com/cs/playtech)
-*   [Marketer - WhiteSmoke](http:/trendemon.com/cs/whitesmoke)
+*   [Marketer - Playtech](http://trendemon.com/cs/playtech)
+*   [Marketer - eToro](http://trendemon.com/cs/playtech)
+*   [Marketer - WhiteSmoke](http://trendemon.com/cs/whitesmoke)
 
 = Relevant Links =
 *   [TrenDemon.com](http://trendemon.com)
