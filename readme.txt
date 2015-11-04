@@ -111,6 +111,9 @@ Please use our Help Desk in the following address – http://support.trendemon.c
 
 == Changelog ==
 
+= 1.6 = 
+* Code is changed to async version
+
 = 1.5 = 
 * Added mobile UI option to setting screen
 
