@@ -227,15 +227,15 @@ if($_POST["trd-relogin"]){
 			<p>
 			<input type="radio" name="show_lift" value="show" <?php if($trd203_show=="1"){?>checked="checked" <?php } ?>>SHOW (embedded article slideshow at the end of the post)
 			<span class="tooltip tooltip-effect-1">
-				<span class="tooltip-item"><img src="/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
-				<span class="tooltip-content clearfix"><img src="/wp-content/plugins/trendemon-revenue-booster/img/img2_anim.gif" id="img1"/></span>
+				<span class="tooltip-item"><img src="<?php echo get_site_url(); ?>/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
+				<span class="tooltip-content clearfix"><img src="<?php echo get_site_url(); ?>/wp-content/plugins/trendemon-revenue-booster/img/img2_anim.gif" id="img1"/></span>
 			</span>
 			</p>
 			<p>
 			<input type="radio" name="show_lift" value="lift" <?php if($trd203_lift=="1"){?>checked="checked" <?php } ?>>LIFT (a rising content feed at the end of the article)
 			<span class="tooltip tooltip-effect-1">
-				<span class="tooltip-item"><img src="/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
-				<span class="tooltip-content clearfix"><img src="/wp-content/plugins/trendemon-revenue-booster/img/img1_anim.gif" id="img1"/></span>
+				<span class="tooltip-item"><img src="<?php echo get_site_url(); ?>/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
+				<span class="tooltip-content clearfix"><img src="<?php echo get_site_url(); ?>/wp-content/plugins/trendemon-revenue-booster/img/img1_anim.gif" id="img1"/></span>
 			</span>
 			</p>
 		</div>
@@ -248,8 +248,8 @@ if($_POST["trd-relogin"]){
 			<tr valign="top">
 			<td scope="row">Enable <b>Mobile Interface</b> (the mobile content discovery unit at the end of the article)?
 			<span class="tooltip tooltip-effect-1">
-					<span class="tooltip-item"><img src="/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
-					<span class="tooltip-content clearfix"><img src="/wp-content/plugins/trendemon-revenue-booster/img/img3_anim.gif" id="img1"/></span>
+					<span class="tooltip-item"><img src="<?php echo get_site_url(); ?>/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
+					<span class="tooltip-content clearfix"><img src="<?php echo get_site_url(); ?>/wp-content/plugins/trendemon-revenue-booster/img/img3_anim.gif" id="img1"/></span>
 			</span>
 			</td>
 			
@@ -268,7 +268,7 @@ if($_POST["trd-relogin"]){
 			<tr valign="top">
 			<td scope="row">Hide Trendy (TrenDemon's logo) and miss out on extra earnings from our referral program
 			<span class="tooltip tooltip-effect-1">
-					<span class="tooltip-item"><img src="/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
+					<span class="tooltip-item"><img src="<?php echo get_site_url(); ?>/wp-content/plugins/trendemon-revenue-booster/img/i.png"/></span>
 					<span class="tooltip-content clearfix"><span class="tooltip-text">TrenDemon's partner program enables you to earn 20% from referrals (sign ups to marketer plans).</span></span>
 			</span>
 			</td>
