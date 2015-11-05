@@ -3,7 +3,7 @@
 Plugin Name: TrenDemon
 Plugin URI: http://trendemon.com
 Description: Boost website conversions (sales, newsletter signups, community connects, social shares, etc.) using personalized content recommendations and call to actions.
-Version: 1.5
+Version: 1.6
 Author: TrenDemon
 Author URI: http://trendemon.com
 License: GPL
